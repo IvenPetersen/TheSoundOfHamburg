@@ -27,7 +27,7 @@ class RealTimeConvolver:
         self.create_widgets()
 
         # Lade die Impulsantworten
-        self.ir_files = ["Alt Barmbek Klatschen.wav"] #, "ir2.wav", "ir3.wav", "ir4.wav", "ir5.wav"
+        self.ir_files = ["AltBarmbekKlatschen.wav"] #, "ir2.wav", "ir3.wav", "ir4.wav", "ir5.wav"
         self.load_impulse_responses()
 
     def create_widgets(self):
